@@ -1,0 +1,9 @@
+x = int(input('Enter number x'))
+y = int(input('Enter number y'))
+log = 1
+res = 2
+print("X**Y =",x**y)
+while res!=x:
+    res*=2
+    log+=1
+print("Log_2(",x,") =",log)
